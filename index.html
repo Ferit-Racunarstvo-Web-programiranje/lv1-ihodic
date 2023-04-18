@@ -1,12 +1,187 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ivana Ivanić</title>
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <img src="lv1-marinbenc-main\images\Logo.png" alt="logo" />
+            </div>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About me</a>
+                <a href="#testemonials">Testemonials</a>
+            </nav>
+            <button class="contact-button">
+                <a href="#contact">Contact me</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="home-conteiner">
+        <div class="left">
+            <p id="p1">Hey, I am John</p>
+            <h1>I create <span>product design</span> and brand experience</h1> 
+            <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <button class="get-in-touch-button">
+                <a href="#get-in-touch">Get In Touch</a>
+            </button>
+        </div>
+        <div class="right">
+            <img src="lv1-marinbenc-main\images\Group 11 1.png" alt="home" class="home" />
+        </div>
+    </div>
+
+    <div class="skills">
+        <p id="skills">My skills</p>
+        <h2>My Expertise</h2>
+        <div class="expertise-conteiner">
+            <div class="expertise">
+                <img src="lv1-marinbenc-main\images\product-chain 1.png" alt="product-chain" >
+                <h3>Strategy & Direction</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise">
+                <img src="lv1-marinbenc-main\images\tag 1.png" alt="product-chain">
+                <h3>Branding & Logo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise">
+                <img src="lv1-marinbenc-main\images\feather-pen 1.png" alt="product-chain">
+                <h3>UI & UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+            <div class="expertise">
+                <img src="lv1-marinbenc-main\images\feather-pen 1-1.png" alt="product-chain">
+                <h3>Webflow Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            </div>
+        </div>
+
+        <div class="aboutme-conteiner">
+            <div class="left2">
+                <img src="lv1-marinbenc-main\images\About Me.png" alt="aboutme" class="aboutme" />
+            </div>
+            <div class="right2">
+                <p id="p1">About</p>
+                <h1>About me</h1> 
+                <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+
+                    Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r..</p>
+            </div>
+        </div>
+
+        <div class="projects">
+            <p id="skills">Recent Projects</p>
+            <h2>My Portfolio</h2>
+            <div class="portfolio-conteiner">
+                <div class="portfolio">
+                    <div class="image">
+                        <img src="lv1-marinbenc-main\images\Placeholder\Image-1.png" alt="product-chain">
+                    </div>
+                    <h3>Ahuse</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <h4>View In Dribbble <img src="lv1-marinbenc-main\images\Vector.png" alt="vector"></h4>
+                </div>
+                <div class="portfolio">
+                    <div class="image">
+                        <img src="lv1-marinbenc-main\images\Placeholder\Image-2.png" alt="product-chain">
+                    </div>
+                    <h3>App Dashboard</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <h4>View In Dribbble <img src="lv1-marinbenc-main\images\Vector.png" alt="vector"></h4>
+                </div>
+                <div class="portfolio">
+                    <div class="image">
+                        <img src="lv1-marinbenc-main\images\Placeholder\Image.png" alt="product-chain">
+                    </div>
+                    <h3>Easy Rent</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                    <h4>View In Dribbble <img src="lv1-marinbenc-main\images\Vector.png" alt="vector"></h4>
+                    
+                </div>                
+        </div>
+
+        <div class="customers">
+            <p id="skills">Clients Feedback</p>
+            <h2>Customer testimonials</h2>
+            <div class="customers-conteiner">
+                <div class="customer">
+                    <img src="lv1-marinbenc-main\images\Stars.png" alt="stars" class="stars">
+                    <p id="review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra..</p> 
+                    <div class="customer2">   
+                        <div class="left3">
+                            <img src="lv1-marinbenc-main\images\Avatar Image.png" alt="customer1" class="customer-image">
+                        </div>
+                        <div class="right3">
+                            <h4>Dianne Russell</h4>
+                            <p>Starbucks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer">
+                    <img src="lv1-marinbenc-main\images\Stars.png" alt="stars" class="stars">
+                    <p id="review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                    <div class="customer2">   
+                        <div class="left3">
+                            <img src="lv1-marinbenc-main\images\Avatar Image-1.png" alt="customer1" class="customer-image">
+                        </div>
+                        <div class="right3">
+                            <h4>Kristin Watson</h4>
+                            <p>Louis Vuitton</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="customer">
+                    <img src="lv1-marinbenc-main\images\Stars.png" alt="stars" class="stars">
+                    <p id="review">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.</p>
+                    <div class="customer2">   
+                        <div class="left3">
+                            <img src="lv1-marinbenc-main\images\Avatar Image-2.png" alt="customer1" class="customer-image">
+                        </div>
+                        <div class="right3">
+                            <h4>Kathryn Murphy</h4>
+                            <p>McDonald's</p>
+                        </div>
+                    </div>                   
+                </div>       
+        </div>  
+    </div>
+
+    <div class="footer-container">
+        <div class="footer">
+            <div class="logo">
+                <img src="lv1-marinbenc-main\images\Logo.png" alt="logo" />
+            </div>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about-me">About me</a>
+                <a href="#testemonials">Testemonials</a>
+            </nav>
+                <div class="icons">
+                    <img src="lv1-marinbenc-main\images\Facebook.png" alt="icon" />
+                    <img src="lv1-marinbenc-main\images\Instagram.png" alt="icon" />
+                    <img src="lv1-marinbenc-main\images\Twitter.png" alt="icon" />
+                    <img src="lv1-marinbenc-main\images\LinkedIn.png" alt="icon" />
+                </div>          
+        </div>
+
+        <div class="footer2">
+            <nav>
+                <a href="#privacypolicy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#cookies">Cookies Settings</a>  
+            </nav>    
+        </div>
+    </div>
+
 </body>
 </html>
